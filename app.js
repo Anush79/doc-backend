@@ -2,7 +2,9 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get("/", (req, res) => res.send("Hi , My name is Anushka"));
+app.get("/", (req, res) =>  res.send(
+  "<h3>Hello ,My name is Anushka Jaiswal and you are watching Doctors API.</h3>",
+));
 app.get("/doctors", (req, res) => {
   res.status(200).json({
     "name":"Shilpi Gupta",
