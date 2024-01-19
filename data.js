@@ -1,4 +1,4 @@
-export const doctors = [
+const doctors = [
     {
       name: 'Dr. Smith Larson',
       specialization: 'Cardiology',
@@ -181,4 +181,4 @@ export const doctors = [
   ];
   
  
-  
+  module.exports = {doctors}
